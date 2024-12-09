@@ -7,7 +7,8 @@ class Scale:
 
     def set_scale(self):
         scales = {"E_Minor": ["E", "F#", "G", "A", "B", "C", "D"],
-                  "E_Major": ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"]}
+                  "E_Major": ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"],
+                  "E_Pentatonic":["E", "G", "A", "B", "D"]}
         return scales[f"{self.key}_{self.scale_type}"]
     
     def get_scale_notes(self):
