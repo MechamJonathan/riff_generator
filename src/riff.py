@@ -25,12 +25,20 @@ class Riff():
                         note_string_map[note] = string
                     
                     note_fret = self.fretboard.strings[string].index(note)
-                    bar_chord = [
-                        (string, note_fret),
-                        (string + 1, note_fret + 2),
-                        (string + 2, note_fret + 2)
-                    ]
-                    bar.append(bar_chord)
+                    if self.fretboard.tuning_key == "Drop_D" and string == 0:
+                        bar_chord = [
+                            (string, note_fret),
+                            (string + 1, note_fret),
+                            (string + 2, note_fret)
+                        ]
+                        bar.append(bar_chord)
+                    else:
+                        bar_chord = [
+                            (string, note_fret),
+                            (string + 1, note_fret + 2),
+                            (string + 2, note_fret + 2)
+                        ]
+                        bar.append(bar_chord)
 
                 else:
                     bar.append(rhythm[i])

@@ -11,8 +11,8 @@ class Fretboard():
                             ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"],
                             ["D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C", "C#"]]}
 
-
     def __init__(self, tuning_key):
+        self.tuning_key = tuning_key
         self.tuning = self.tunings[tuning_key]
         self.strings = self.strings[tuning_key]
     
