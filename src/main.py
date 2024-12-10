@@ -4,9 +4,7 @@ from fretboard import Fretboard
 from riff import Riff
 from tabs_formatter import format_tabs, save_riff_to_file
 
-
 def main():
-
     print("\nWELCOME TO SIMPLE METAL RIFF GENERATOR!\n")
     print("""██████──██
 ─██████████─────▄─▄─▄
@@ -25,7 +23,6 @@ def main():
     print("\n".join(format_tabs(riff)) + "\n")
 
     save_riff_dialog(riff)
-
 
 def user_input():
     acceptable_keys = ["E"]
