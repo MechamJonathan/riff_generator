@@ -1,5 +1,4 @@
 import unittest
-import re
 from scale import Scale
 from fretboard import Fretboard
 from riff import Riff
