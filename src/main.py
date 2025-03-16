@@ -5,12 +5,7 @@ from riff import Riff
 from tabs_formatter import format_tabs, save_riff_to_file
 
 def main():
-    print("\nWELCOME TO SIMPLE METAL RIFF GENERATOR!\n")
-    print("""██████──██
-─██████████─────▄─▄─▄
-──███O▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-───████████─────▀─▀─▀
-────██──██\n""")
+    print("\nWELCOME TO GUITAR RIFF GENERATOR!\n")
     
     key, scale_type, tuning = user_input()
 
@@ -25,13 +20,13 @@ def main():
     save_riff_dialog(riff)
 
 def user_input():
-    acceptable_keys = ["E"]
+    acceptable_keys = ["A", "C", "D", "E", "G"]
     acceptable_scale_types = ["Major", "Minor", "Pentatonic"]
     acceptable_tunings = ["Standard_E", "Drop_D"]
     
     while True:
         try:
-            key = input("Choose one of the available keys (E): ") or "E"
+            key = input("Choose one of the available keys (A, C, D, E, G): ") or "E"
             if key in acceptable_keys:
                 break
             else:
