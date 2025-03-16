@@ -5,7 +5,7 @@ from riff import Riff
 from tabs_formatter import format_tabs, save_riff_to_file
 
 def main():
-    print("\nWELCOME TO GUITAR RIFF GENERATOR!\n")
+    print("\nWELCOME TO RIFF GENERATOR!\n")
     
     key, scale_type, tuning = user_input()
 
