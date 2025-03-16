@@ -1,9 +1,9 @@
-# Simple Metal Riff Generator
-A Python application that generates custom heavy metal guitar riffs in tablature format. Users can specify the scale, tuning, and other parameters to create unique riffs. The project also includes functionality to save riffs to a folder for future reference.
+# Guitar Riff Generator
+A Python application that generates custom guitar riffs in tablature format. Users can specify the scale and tuning to create unique riffs. The project also includes functionality to save riffs to a folder for future reference.
 
 
 ## Why
-The Simple Metal Riff Generator was created out of a love for heavy metal music and the desire to help guitarists of all levels easily generate unique riffs. Whether you're a beginner looking for inspiration or an experienced guitarist needing fresh ideas, this tool gives you the ability to explore different scales, tunings, and rhythms quickly. It also provides a simple way to save your riffs, allowing you to keep track of your progress or build on ideas over time. The goal is to make riff creation fun, flexible, and accessible for everyone who loves metal music and guitar.
+The Riff Generator was created out of a love for rock music and the desire to help guitarists of all levels easily generate unique riff ideas. Whether you're a beginner looking for inspiration or an experienced guitarist needing fresh ideas, this tool gives you the ability to explore different scales, tunings, and rhythms quickly. It also provides a simple way to save your riffs.
 
 ## Features 
 - Customizable Inputs: Choose the key, scale, and tuning for your riff.
