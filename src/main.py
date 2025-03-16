@@ -26,7 +26,7 @@ def user_input():
     
     while True:
         try:
-            key = input("Choose one of the available keys (E): ") or "E"
+            key = input("Choose one of the available keys (A, C, D, E, G): ") or "E"
             if key in acceptable_keys:
                 break
             else:
