@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/MechamJonathan/riff_generator/img/logo.png" width="900" title="logo">
+  <img src="https://github.com/MechamJonathan/riff_generator/blob/main/img/logo.png" width="900" title="logo">
 </p>
 
 # Riff Generator
