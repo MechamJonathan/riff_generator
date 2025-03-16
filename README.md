@@ -2,7 +2,6 @@
   <img src="https://github.com/MechamJonathan/riff_generator/img/logo.png" width="900" title="logo">
 </p>
 
-
 # Riff Generator
 A Python application that generates custom guitar riffs in tablature format. Users can specify the scale and tuning to create unique riffs. The project also includes functionality to save riffs to a folder for future reference.
 
