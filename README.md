@@ -39,13 +39,8 @@ python3 ./main.py
 - File Saving: Automatically creates a MyRiffs directory and prevents overwriting existing riffs.
 
 ## Example
-Generated riff example:
-```
-E|------------------------|------------------------|
-B|------------------------|------------------------|
-G|4--------4--------------|---------2--------------|
-D|4-----2--4-----5--------|2-----5--2-----12-------|
-A|2-----2--2-----5--------|2-----5--0-----12-------|
-E|---0--0--------3-----0--|0--0--3--------10----0--|
-```
+<p align="left">
+  <img src="https://github.com/MechamJonathan/riff_generator/blob/main/src/demo.gif" width="600" title="demo">
+</p>
+
 
