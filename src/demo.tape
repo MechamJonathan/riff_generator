@@ -65,5 +65,9 @@ Set Width 1200
 Set Height 600
 
 Type python3 main.py Sleep 500ms  Enter
+Type E Sleep 1000ms Enter
+Type Pentatonic Sleep 500ms Enter
+Type Standard_E Sleep 500ms Enter
+Sleep 1000ms
 
 Sleep 5s
