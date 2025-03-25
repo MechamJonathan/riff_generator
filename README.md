@@ -38,7 +38,7 @@ python3 ./main.py
 - Tab Formatting: Aligns notes into clean guitar tablature.
 - File Saving: Automatically creates a MyRiffs directory and prevents overwriting existing riffs.
 
-## Example
+## Demo
 <p align="left">
   <img src="https://github.com/MechamJonathan/riff_generator/blob/main/src/demo.gif" width="600" title="demo">
 </p>
